@@ -112,7 +112,7 @@ local plugins = {
           auto_load = true,          -- 打开 Markdown 文件时自动加载预览
           close_on_bdelete = true,   -- 关闭缓冲区时自动关闭预览
           app = 'browser',           -- 使用系统默认浏览器
-          theme = 'light',           -- 主题设置：'light' 或 'dark'
+          theme = 'dark',           -- 主题设置：'light' 或 'dark'
           filetype = { 'markdown' }, -- 启用预览的文件类型
         })
 
@@ -244,7 +244,7 @@ lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 -- -- Change theme settings
 -- lvim.colorscheme = "habamax"
-lvim.colorscheme = "desert"
+lvim.colorscheme = "ron"
 
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
