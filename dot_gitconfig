@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = minisparrow
+	email = melchior_faith@163.com
+[credential]
+	helper = store
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[http]
+	postBuffer = 524288000
+	version = HTTP/1.1
+[core]
+	quotepath = false
+	editor = lvim
