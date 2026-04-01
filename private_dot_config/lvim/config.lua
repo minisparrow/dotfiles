@@ -166,6 +166,13 @@ local plugins = {
           markdown = "^---$",
         },
         keep_separator = false,
+        keymaps = {
+          ["t"] = function() _G.Presenting.toggle_toc() end,
+          ["+"] = function() _G.Presenting.toc_wider(5) end,
+          ["-"] = function() _G.Presenting.toc_narrower(5) end,
+          [">"] = function() _G.Presenting.slide_wider(10) end,
+          ["<"] = function() _G.Presenting.slide_narrower(10) end,
+        },
       },
       cmd = { "Presenting" },
     },
