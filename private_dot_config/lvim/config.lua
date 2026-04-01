@@ -244,7 +244,7 @@ lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 -- -- Change theme settings
 -- lvim.colorscheme = "habamax"
-lvim.colorscheme = "ron"
+lvim.colorscheme = "lunarperche"
 
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
